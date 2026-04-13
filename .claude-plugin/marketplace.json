@@ -8,27 +8,18 @@
   "plugins": [
     {
       "name": "claude-backend-plugin",
-      "description": "Backend com Bun + Elysia + Drizzle + Clean Architecture + SOLID. Skills de arquitetura, commands de scaffolding e agents de review.",
-      "source": {
-        "type": "github",
-        "repo": "NovaisVictor/claude-backend-plugin"
-      }
+      "description": "Backend com Bun + Elysia + Drizzle + Clean Architecture + SOLID.",
+      "source": "NovaisVictor/claude-backend-plugin"
     },
     {
       "name": "claude-auth-plugin",
-      "description": "Autenticação com BetterAuth + Elysia + Drizzle. Email/password, magic link, roles (user/manager/admin) com plugin admin.",
-      "source": {
-        "type": "github",
-        "repo": "NovaisVictor/claude-auth-plugin"
-      }
+      "description": "Autenticação com BetterAuth + Elysia + Drizzle. Email/password, magic link, roles.",
+      "source": "NovaisVictor/claude-auth-plugin"
     },
     {
       "name": "claude-frontend-plugin",
-      "description": "Frontend com React 19 + TanStack Router + TanStack Query + Kubb + Tailwind CSS + shadcn/ui + Zustand.",
-      "source": {
-        "type": "github",
-        "repo": "NovaisVictor/claude-frontend-plugin"
-      }
+      "description": "Frontend com React 19 + TanStack Router + TanStack Query + Kubb + shadcn/ui + Zustand.",
+      "source": "NovaisVictor/claude-frontend-plugin"
     }
   ]
 }
