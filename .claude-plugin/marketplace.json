@@ -1,25 +1,35 @@
 {
   "name": "novais-plugins",
-  "description": "Plugins pessoais para projetos fullstack com Bun, Elysia, Drizzle, React, TanStack e BetterAuth.",
   "owner": {
-    "name": "Victor Novais",
-    "url": "https://github.com/NovaisVictor"
+    "name": "Victor Novais"
+  },
+  "metadata": {
+    "description": "Plugins pessoais para projetos fullstack com Bun, Elysia, Drizzle, React, TanStack e BetterAuth."
   },
   "plugins": [
     {
       "name": "claude-backend-plugin",
       "description": "Backend com Bun + Elysia + Drizzle + Clean Architecture + SOLID.",
-      "source": "NovaisVictor/claude-backend-plugin"
+      "source": {
+        "source": "github",
+        "repo": "NovaisVictor/claude-backend-plugin"
+      }
     },
     {
       "name": "claude-auth-plugin",
       "description": "Autenticação com BetterAuth + Elysia + Drizzle. Email/password, magic link, roles.",
-      "source": "NovaisVictor/claude-auth-plugin"
+      "source": {
+        "source": "github",
+        "repo": "NovaisVictor/claude-auth-plugin"
+      }
     },
     {
       "name": "claude-frontend-plugin",
       "description": "Frontend com React 19 + TanStack Router + TanStack Query + Kubb + shadcn/ui + Zustand.",
-      "source": "NovaisVictor/claude-frontend-plugin"
+      "source": {
+        "source": "github",
+        "repo": "NovaisVictor/claude-frontend-plugin"
+      }
     }
   ]
 }
